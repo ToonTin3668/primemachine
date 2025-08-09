@@ -1,1 +1,0 @@
-/usr/bin/cc CMakeFiles/primemachine.dir/src/main.c.o -o primemachine 
