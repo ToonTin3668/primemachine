@@ -8,6 +8,6 @@ add_compile_options(${COMPILE_FLAGS})
 
 add_executable(example src/main.c)
 
-target_include_directories(${CMAKE_PROJECT_NAME} 
+target_include_directories(example
 PUBLIC src/include)
 
