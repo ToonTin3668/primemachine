@@ -6,7 +6,7 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 set(COMPILE_FLAGS -Wall -Wextra -Werror)
 add_compile_options(${COMPILE_FLAGS})
 
-add_executable(${CMAKE_PROJECT_NAME} src/main.c)
+add_executable(example src/main.c)
 
 target_include_directories(${CMAKE_PROJECT_NAME} 
 PUBLIC src/include)
